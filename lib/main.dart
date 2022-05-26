@@ -13,10 +13,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: '이벤트 페이지',
         theme: ThemeData(
+          fontFamily: 'NotoSansKr',
           scaffoldBackgroundColor: Colors.white,
           primarySwatch: Colors.grey,
         ),
-        routes: routes
+        routes: routes,
+        debugShowCheckedModeBanner: false
     );
   }
 }
