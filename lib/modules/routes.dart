@@ -3,6 +3,6 @@ import 'package:event_page/screens/home.dart';
 import 'package:flutter/cupertino.dart';
 
 final routes = {
-  '/': (BuildContext context) => const Home(),
-  '/event-page': (BuildContext context) => const EventPage()
+  '/': (BuildContext context) => const EventPage(),
+  '/home': (BuildContext context) => const Home()
 };
